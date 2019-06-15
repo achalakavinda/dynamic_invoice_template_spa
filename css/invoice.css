@@ -1,0 +1,92 @@
+.invoice-body {
+    position: relative;
+    width: 595px;
+    height: 842px;
+    border: 1px solid black;
+}
+
+.invoice-header {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    height: 320px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+}
+
+.invoice-header-img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.invoice-header-img >img{
+    width: 100%;
+}
+
+#invoiceHeaderGrid3{
+    height: 200px;
+}
+
+#invoiceHeaderTitileBar{
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black
+}
+
+#invoiceHeaderDetailBox{
+    padding: 5px;
+}
+
+#invoiceHeaderDetailBox>table{
+    width: 100%;
+    text-align: center;
+}
+
+.invoice-content{
+    position: relative;
+    width: 100%;
+}
+
+.invoice-content> table{
+    position: relative;
+    width: 100%;
+}
+.invoice-content> table >thead{
+    text-align: center;
+}
+
+.invoice-content> table >tbody>tr>td{
+    padding: 5px;
+}
+
+.invoice-content> table >tfoot>tr>td{
+    padding: 5px;
+}
+
+.invoice-content> table >tfoot>tr{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.grid-1 {
+    display: block;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
+
+.grid-3{
+    display: block;
+    float: left;
+    width: 197.5px;
+    overflow: hidden;
+}
+
+.grid-2{
+    display: block;
+    float: left;
+    position: relative;
+    width: 296px;
+}
